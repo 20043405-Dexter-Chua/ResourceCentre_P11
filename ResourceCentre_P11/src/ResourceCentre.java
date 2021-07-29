@@ -240,8 +240,7 @@ public class ResourceCentre {
 		// write your code here
 		boolean isLoaned = false;
 
-		for (int i = 0; i < chromebookList.size(); i++) {
-			
+		for (int i = 0; i < chromebookList.size(); i++) {	
 			String assetTag = chromebookList.get(i).getAssetTag();
 			
 			if (tag.equalsIgnoreCase(assetTag)
@@ -275,8 +274,7 @@ public class ResourceCentre {
 	public static boolean doReturnCamcorder(ArrayList<Camcorder> camcorderList,String tag) {
 		boolean isReturned = false;
 
-		for (int i = 0; i < camcorderList.size(); i++) {
-			
+		for (int i = 0; i < camcorderList.size(); i++) {		
 			String assetTag = camcorderList.get(i).getAssetTag();
 			
 			if (tag.equalsIgnoreCase(assetTag)
@@ -307,7 +305,6 @@ public class ResourceCentre {
 		boolean isReturned = false;
 
 		for (int i = 0; i < chromebookList.size(); i++) {
-			
 			String assetTag = chromebookList.get(i).getAssetTag();
 			
 			if (tag.equalsIgnoreCase(assetTag)
